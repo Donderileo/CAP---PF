@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Batalha naval</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+	<link rel="icon" href="https://img1.picmix.com/output/stamp/normal/3/4/5/4/664543_07f2f.png">
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+<br><br><br><br><br><br>
+    
+	 <center>
+            <h2>Preenchendo as posições dos seus barcos!</h2>
+			<p style="font-size:22px;"> Lembre-se que as posições vão de 1 a 4: </p>
+            <form action="http://cap.dc.ufscar.br/~759378/cgi-bin/gera_navios.cgi" method="get">
+    <div>
+		<label for="linha1" style="font-size:22px;"><img src="img/barkin.png" width="60px" height="60px">&nbsp;</label>
+        <label for="linha1" style="font-size:22px;">Linha:&nbsp;</label>
+        <input min="1" max="4" value="1" name="linha1" style="width:85px;border-radius:6px;font-size:18px;" type="number"/>
+   &nbsp;&nbsp;
+        <label for="coluna1" style="font-size:22px;">Coluna:</label>
+        <input min="1" max="4" value="1" name="coluna1" style="width:85px;border-radius:6px;font-size:18px;" type="number" />
+    </div>
+	<br>
+	<div>
+		<label for="linha2" style="font-size:22px;"><img src="img/barkin.png" width="60px" height="60px">&nbsp;</label>
+        <label for="linha2" style="font-size:22px;">Linha:&nbsp;</label>
+        <input min="1" max="4" value="2" name="linha2" style="width:85px;border-radius:6px;font-size:18px;" type="number"/>
+   &nbsp;&nbsp;
+        <label for="coluna2" style="font-size:22px;">Coluna:</label>
+        <input min="1" max="4" value="2" name="coluna2" style="width:85px;border-radius:6px;font-size:18px;" type="number" />
+    </div>
+	<br>
+	<div>
+	    <label for="linha3" style="font-size:22px;"><img src="img/barkin.png" width="60px" height="60px">&nbsp;</label>
+        <label for="linha3" style="font-size:22px;">Linha:&nbsp;</label>
+        <input min="1" max="4" value="3" name="linha3" style="width:85px;border-radius:6px;font-size:18px;" type="number"/>
+   &nbsp;&nbsp;
+        <label for="coluna3" style="font-size:22px;" >Coluna:</label>
+        <input min="1" max="4" value="3" name="coluna3" style="width:85px;border-radius:6px;font-size:18px;" type="number"/>
+    </div>
+	<br>
+	   <input href="http://cap.dc.ufscar.br/~759378/cgi-bin/gera_navios.cgi" type="submit" value="Jogar" class="btn btn-default btn-lg" style="border-radius:6px;"> </input>
+</form>
+
+
+    </center>
+
+    
+
+</html>
